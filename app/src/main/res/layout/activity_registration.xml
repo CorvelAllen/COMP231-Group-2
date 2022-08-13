@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="101dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="225dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/cPassword"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="286dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="166dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/userType"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="UserTypre"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="350dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="324dp"
+        android:layout_height="56dp"
+        android:background="#07C5C5"
+        android:text="Register"
+        app:iconTint="#051ACC"
+        app:rippleColor="#E7EDED"
+        app:strokeColor="#092FED"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="435dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="68dp"
+        android:layout_height="29dp"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:iconTint="#03A5A5"
+        app:strokeColor="#6CDD0A"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="18dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
